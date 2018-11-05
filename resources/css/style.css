@@ -2,3 +2,56 @@ body {
   background-color: #494949;
   color: white;
 }
+
+.center-column {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.container {
+  border-bottom: 1px solid gray;
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 25px;
+  margin-top: .5em;
+  text-decoration: none;
+}
+
+nav #home {
+  border-top: 2px solid white;
+}
+
+nav #home:hover {
+  border-top: 2px solid blue;
+
+}
+
+nav a:hover {
+  border-top: 2px solid blue;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid white;
+}
+
+#info p {
+  width: 75%;
+}
+
+#info h2 {
+  width: 25%;
+}
