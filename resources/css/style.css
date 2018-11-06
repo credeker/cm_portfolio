@@ -1,11 +1,12 @@
 body {
-  background-color: #494949;
+  background-color: #505050;
   color: white;
+  font-family:'Lora', serif;
 }
 
 .center-column {
   width: 800px;
-  margin: 0 auto;
+  margin: auto;
   padding-top: 10px;
 }
 
@@ -22,6 +23,8 @@ nav a {
   margin-right: 25px;
   margin-top: .5em;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 nav #home {
@@ -29,17 +32,18 @@ nav #home {
 }
 
 nav #home:hover {
-  border-top: 2px solid blue;
-
+  border-top: 2px solid #0A7E8C;
 }
 
 nav a:hover {
-  border-top: 2px solid blue;
+  border-top: 2px solid #0A7E8C;
 }
 
-h1 {
+h1.center-column {
   font-size: 60px;
   font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #info {
@@ -49,6 +53,7 @@ h1 {
 
 #info p {
   width: 75%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #info h2 {
